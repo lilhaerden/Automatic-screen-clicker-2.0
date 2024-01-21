@@ -33,6 +33,5 @@ This Python script checks for the presence of a specified image file on the desk
 ## Changes
 
 - Improved script functionality to automatically handle the installation of required modules.
-- Enhanced file extension detection for more flexible usage.
 - Addressed and corrected several script errors for improved reliability.
 
