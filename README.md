@@ -12,11 +12,11 @@ This Python script checks for the presence of a specified image file on the desk
    - Open a terminal or command prompt and navigate to the directory where the script is located.
    - Execute the following command to start the script:
      ```bash
-     python auto_clicker1.1.0.py
+     python auto_clicker-2.0.py
      ```
      or
      ```bash
-     python3 auto_clicker1.1.0.py
+     python3 auto_clicker-2.0.py
      ```
 
 3. **Automated Setup:**
