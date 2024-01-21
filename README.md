@@ -21,7 +21,6 @@ This Python script checks for the presence of a specified image file on the desk
 
 3. **Automated Setup:**
    - The script automatically handles the installation of required modules, eliminating the need for manual downloads.
-   - It also intelligently detects the image file's extension for a more versatile usage.
 
 4. **Notes During Usage:**
    - The program continuously checks for the image file until it is found.
