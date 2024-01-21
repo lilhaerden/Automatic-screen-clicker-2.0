@@ -1,26 +1,39 @@
-## AutoClicker
+# AutoClicker
 
-This auto-clicker tool checks if a specific desktop image is present on the screen and clicks on it if found.
+This Python script checks for the presence of a specified image file on the desktop and performs a click operation when the image is found.
 
-### Usage
+## Usage
 
-1. **Python Version**: It is recommended to use Python 3.
+1. **Python Installation:**
+   - If Python is not installed on your system, you can download and install it from the [official Python website](https://www.python.org/downloads/).
+   - Make sure to add Python to your system's PATH during the installation process.
 
-2. **Installation of Required Modules**: The program will automatically install the necessary modules for it to function. Therefore, there is no need to manually install the modules.
+2. **Run the Script:**
+   - Open a terminal or command prompt and navigate to the directory where the script is located.
+   - Execute the following command to start the script:
+     ```bash
+     python auto_clicker1.1.0.py
+     ```
+     or
+     ```bash
+     python3 auto_clicker1.1.0.py
+     ```
 
-3. **Running the Program**: Start the program by running the `autoclicker.py` file. The program will wait for a specific image on the desktop and click on it when found.
+3. **Automated Setup:**
+   - The script automatically handles the installation of required modules, eliminating the need for manual downloads.
+   - It also intelligently detects the image file's extension for a more versatile usage.
 
-    ```bash
-    python autoclicker.py
-    ```
+4. **Notes During Usage:**
+   - The program continuously checks for the image file until it is found.
+   - After clicking on the found image, it prompts the user to continue or exit.
+   - A counter has been added to track the attempts made to find the image.
 
-4. **Usage Steps**:
+5. **Python Installation:**
+   - If Python is not installed, download and install it from [python.org](https://www.python.org/downloads/).
 
-    - First, you will be prompted to enter the name of an image on the desktop (e.g., "image.png" or "image.jpg").
-    - When the program finds the image, it will display a "Image found!" message and click on the image.
-    - If the program cannot find the image, it will display "Image not found. Continuing..." and check again after a certain period.
+## Changes
 
-### Notes
+- Improved script functionality to automatically handle the installation of required modules.
+- Enhanced file extension detection for more flexible usage.
+- Addressed and corrected several script errors for improved reliability.
 
-- It is important to correctly enter the file name and extension of the image for the program to recognize it.
-- Adequate confidence levels are specified for the program to identify the image's position on the screen. If the program cannot find the image, adjusting the confidence level may be necessary.
